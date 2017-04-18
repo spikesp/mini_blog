@@ -11,6 +11,8 @@
           <%= f.password_field :password, class: 'form-control' %>
           <%= f.label :password_confirmation, "Confirmation" %>
           <%= f.password_field :password_confirmation, class: 'form-control' %>
+          <%= f.label :introdcution %>
+          <%= f.text_field :intro_self, class: 'form-control' %>
 <%= f.submit "Save changes", class: "btn btn-primary" %> <% end %>
 <div class="gravatar_edit">
 <%= gravatar_for @user %>
